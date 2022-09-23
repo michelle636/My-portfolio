@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $('.slider').bxSlider({
+    mode:"horizontal",
+    pager:true,
+    moveSlides:1,
+    minSlides:1,
+    maxSlides:2,
+    slideWidth:'500px;',
+    auto:true,
+    autoHover:true,
+    speed:3000,
+    controls:true,
+    });
+  });
